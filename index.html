@@ -327,64 +327,60 @@ const DOC_TYPES = ['Plano da Qualidade','Organograma','Lista de Assinaturas','Pr
 
 const LVS_STRUCTURE = [
   { section:'Estrutura Organizacional', items:[
-    {code:'1.1', text:'A empresa possui estrutura organizacional definida para o contrato?'},
-    {code:'1.2', text:'O organograma da obra está disponível e atualizado?'},
-    {code:'1.3', text:'Existe plano da qualidade específico para o contrato?'},
-    {code:'1.4', text:'Os responsáveis pelas atividades de qualidade estão designados?'},
+    {code:'1.1', text:'A Contratada apresenta um Plano de Qualidade próprio, aplicável ao contrato?'},
+    {code:'1.2', text:'O organograma da obra está aprovado pela fiscalização?'},
+    {code:'1.3', text:'Todos os profissionais indiretos estão em conformidade com a qualificação exigida contratualmente, inclusive subcontratados?'},
+    {code:'1.4', text:'O organograma está atualizado??'},
     {code:'1.5', text:'A lista de assinaturas autorizadas está disponível e atualizada?'},
   ]},
   { section:'Controle de Documentos', items:[
-    {code:'2.1', text:'Existe sistemática para controle de documentos e registros?'},
-    {code:'2.2', text:'Os documentos normativos estão na revisão vigente?'},
-    {code:'2.3', text:'Os procedimentos estão aprovados e disponíveis nos locais de uso?'},
-    {code:'2.4', text:'A lista mestra de documentos está atualizada?'},
+    {code:'2.1', text:'O procedimento de controle de documentos e de registros está aprovado pela Fiscalização'},
+    {code:'2.2', text:'O conteúdo do procedimento está adequado às normas e padrões aplicáveis?'},
   ]},
-  { section:'Recursos Humanos e Treinamento', items:[
-    {code:'3.1', text:'Os colaboradores possuem treinamento nos procedimentos aplicáveis?'},
-    {code:'3.2', text:'Existem registros de treinamento (listas de presença, certificados)?'},
-    {code:'3.3', text:'As qualificações dos inspetores estão válidas e registradas?'},
-    {code:'3.4', text:'Existe comprovação de competência da equipe técnica?'},
+  { section:'Tratamento de Não Conformidade', items:[
+    {code:'3.1', text:'O procedimento de tratamento de não conformidades está aprovado pela Fiscalização?'},
+    {code:'3.2', text:'O conteúdo do procedimento está adequado às normas e padrões aplicáveis?'},
   ]},
   { section:'Calibração e Controle de Instrumentos', items:[
-    {code:'4.1', text:'Existe plano de calibração de instrumentos de medição?'},
-    {code:'4.2', text:'Os certificados de calibração estão válidos e disponíveis?'},
+    {code:'4.1', text:'O procedimento de controle de calibração está aprovado pela Fiscalização?'},
+    {code:'4.2', text:'Todos os instrumentos de medição são rastreáveis a padrões oficiais?'},
     {code:'4.3', text:'Os instrumentos estão identificados com etiqueta de calibração?'},
-    {code:'4.4', text:'Existe controle de instrumentos vencidos ou fora de uso?'},
+    {code:'4.4', text:'As periodicidades para calibração dos instrumentos de medição, segundo o mapa de controle, estão adequadas a obra?'},
   ]},
-  { section:'Controle de Materiais', items:[
-    {code:'5.1', text:'Existe sistemática de recebimento e inspeção de materiais?'},
-    {code:'5.2', text:'Os certificados de materiais estão disponíveis e rastreáveis?'},
-    {code:'5.3', text:'Os materiais estão identificados e armazenados adequadamente?'},
-    {code:'5.4', text:'Existe controle de consumíveis (eletrodos, discos, gases)?'},
+  { section:'Plano de Rastreabilidade dos Serviços ', items:[
+    {code:'5.1', text:'O plano de certificação e rastreabilidade dos serviços (PCRS) está aprovado pela fiscalização?'},
   ]},
-  { section:'Controle de Processos de Execução', items:[
-    {code:'6.1', text:'Os procedimentos operacionais estão disponíveis no local de trabalho?'},
-    {code:'6.2', text:'Os registros de inspeção de recebimento estão completos?'},
-    {code:'6.3', text:'As permissões de trabalho estão emitidas e válidas?'},
-    {code:'6.4', text:'Os critérios de aceitação estão definidos em cada procedimento?'},
+  { section:'Procedimento de Manutenção', items:[
+    {code:'6.1', text:'Todos os procedimentos de execução estão aprovados pela Fiscalização e distribuídos antes do início dos trabalhos'},
   ]},
-  { section:'Ensaios Não Destrutivos', items:[
-    {code:'7.1', text:'Os procedimentos de END estão qualificados e aprovados?'},
-    {code:'7.2', text:'Os inspetores de END possuem certificação válida (SNQC/ABENDI)?'},
-    {code:'7.3', text:'Os relatórios de END estão emitidos e rastreáveis?'},
-    {code:'7.4', text:'Os equipamentos de END possuem calibração válida?'},
+  { section:'Procedimento de Controle de Qualidade e Inspeção', items:[
+    {code:'7.1', text:'Todos os procedimentos de inspeção estão aprovados pela Fiscalização e distribuídos antes do início dos trabalhos?'},
   ]},
   { section:'Soldagem', items:[
-    {code:'8.1', text:'Existem EPS (Especificações de Procedimento de Soldagem) qualificadas?'},
-    {code:'8.2', text:'Os RQPS estão disponíveis para cada EPS aplicável?'},
-    {code:'8.3', text:'Os soldadores e operadores possuem qualificação válida?'},
-    {code:'8.4', text:'Existe controle de desempenho de soldadores?'},
-    {code:'8.5', text:'O controle de consumíveis de soldagem está implementado?'},
+    {code:'8.1', text:'O procedimento geral de soldagem está aprovado pela Fiscalização?'},
+    {code:'8.2', text:'Todas as EPS/EPB previstas para os serviços estão qualificadas?'},
+    {code:'8.3', text:'Está definida especificamente em procedimento uma metodologia de identificação alfanumérica para as juntas soldadas?'},
+    {code:'8.4', text:'O procedimento de recebimento e tratamento de consumíveis de soldagem está aprovado pela ANSA?'},
+    {code:'8.5', text:'O procedimento de calibração de máquinas de solda está aprovado pela Fiscalização?'},
+    {code:'8.6', text:'O procedimento de calibração de estufas portáteis está aprovado pela Fiscalização?'},
+    {code:'8.7', text:'Os procedimentos estão adequados às normas e padrões aplicáveis?'},
   ]},
-  { section:'Tratamento de Não Conformidades', items:[
-    {code:'9.1', text:'Existe sistemática para registro e tratamento de não conformidades?'},
-    {code:'9.2', text:'As ações corretivas são implementadas e verificadas?'},
-    {code:'9.3', text:'Existe controle de produtos não conformes?'},
+  { section:'Procedimento de Recebimento, armazenamento e condicionamento de materiais', items:[
+    {code:'9.1', text:'O procedimento de recebimento, armazenamento e condicionamento de materiais está aprovado pela Fiscalização?'},
+    {code:'9.2', text:'O procedimento está adequado às normas e padrões aplicáveis?'},
+  ]},
+  { section:'Procedimento de conscientização e treinamentos', items:[
+    {code:'10.1', text:'O procedimento de conscientização e treinamento está aprovado pela Fidcalização?'},
+    {code:'10.2', text:'O procedimento de conscientização e treinamento foi aplicado? Foi elaborada lista de presença?'},
+  ]},
+  { section:'Controle de Pessoal Qualificado', items:[
+    {code:'11.1', text:'Estão sendo atendidas as exigências quanto às equipes mínimas dispníveis, conforme requerido no contrato?'},
+    {code:'11.2', text:'Os profissionais com capacitação específica estão com certificação válidas / ativas.'},
+    {code:'11.3', text:'Estão sendo atendidas as exigências contratuais em relação ao quantitativo de mão de obra direta qualificada?'},
   ]},
   { section:'Subcontratados', items:[
-    {code:'10.1', text:'Os subcontratados possuem qualificação documentada?'},
-    {code:'10.2', text:'Existe controle sobre os serviços terceirizados?'},
-    {code:'10.3', text:'Os subcontratados atendem aos requisitos do sistema da qualidade?'},
+    {code:'10.1', text:'Todos os subcontratados estão formalizados e aprovados pela Fiscalização?'},
+    {code:'10.2', text:'As subscontratadas trabalham com procedimentos aprovados pela Fiscalização?'},
   ]},
 ];
 
@@ -745,4 +741,3 @@ initApp();
 </script>
 </body>
 </html>
-
